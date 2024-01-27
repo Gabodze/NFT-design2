@@ -1,0 +1,1217 @@
+@font-face {
+    font-family: Work Sans ;
+    src: url(./fonts/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Work Sans ;
+    src: url(./fonts/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Work Sans ;
+    src: url(./fonts/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Space Mono;
+    src: url(./fonts/SpaceMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: Space Mono;
+    src: url(./fonts/SpaceMono-Regular.ttf);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(43, 43, 43, 1);
+}
+
+p{
+    margin: 0;
+}
+
+header{
+    padding: 20px 50px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: end;
+}
+
+.navMenu{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navMenu>a{
+    padding: 0 20px 0 20px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.signUp{
+    width: 152px;
+    height:  60px;
+    padding: 0p 30px 0 30px;
+    border-radius: 20px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(162, 89, 255, 1);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+/* heroSection */
+.heroSection{
+    display: flex;
+    flex-direction: row;
+    /* width: Fill (1,280px)
+    height: Hug (704px) */
+    padding: 80px 115px 80px 115px;
+    /* gap: 30px; */
+}
+
+.heroSectionFrame{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.heroTextButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px !important;
+    width: 45%;
+}
+
+.headlineSubhead{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.headline{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.subhead{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.getStarted{
+    width: 224px;
+    height: 60px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(162, 89, 255, 1);
+    border: none;
+}
+
+.additionalInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.totalSale{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.additionalInfospan{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.highlitedNFT{
+    display: flex;
+    flex-direction: column;
+}
+
+.highlitedNFT>img{
+    width: 510px;
+    height: 401px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.frame230{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0 0 20px 20px;
+}
+
+.space{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+.artistcard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.artist{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.tendingCollection{
+    width: 100%;
+    padding: 80px 115px 80px 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+    /* background-color: aqua; */
+}
+
+.sectionHeadline{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trendingHeader{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.trendingSubhead{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.collectionCardRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collectionCard{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.photosNumbers{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.frame228{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.numberDiv{
+    width: 100px;
+    height: 100px;
+    padding: 32px 15px 32px 15px;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgba(162, 89, 255, 1);
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.collectionInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.collectionName{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.TopratedArtists{
+    width: 100%;
+    /* height: Hug (1,085px) */
+    padding: 80px 155px 80px 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.headlineButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+
+.rockeet{
+    width: 247px;
+    height: 60px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+
+}
+
+.artistCardGrid{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.artistcardsRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.TopartistCard{
+    /* width: Fill (240px)
+    height: Hug (238px) */
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.TopartistCard>img{
+    margin: auto;
+    width: 120px;
+    height: 120px;
+}
+
+.artistInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.artistInfoH{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.additionalInform{
+    width: 200px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.totalSale2{
+    width: 95px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(133, 133, 132, 1);
+}
+
+.base{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+} 
+
+.runkingNumber{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+    position: absolute;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(133, 133, 132, 1);
+
+}
+
+
+
+/* browse Categories */
+
+.browseCategories{
+    width: 100%;
+    /* height: Hug (883px) */
+    padding: 80px 115px 80px 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.CategoryHeader{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+} 
+
+.categoryCardsGrid{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.categoryCardsRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categoryCard{
+    border-radius: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.photoIcon{
+    width: 240px;
+    height: 240px;
+   
+    background-image: url(./assets/catImage\ Placeholder.png);
+} 
+
+.photoIcon3{
+    width: 240px;
+    height: 240px;
+    background-image: url(./assets/Image\ 1.png);
+} 
+
+.photoIcon4{
+    width: 240px;
+    height: 240px;
+    background-image: url(./assets/Image\ 2.png);
+} 
+
+.photoIcon5{
+    width: 240px;
+    height: 240px;
+    background-image: url(./assets/Image\ 5.png);
+} 
+
+.photoIcon6{
+    width: 240px;
+    height: 240px;
+    background-image: url(./assets/Image\ 6.png);
+} 
+
+.photoIcon7{
+    width: 240px;
+    height: 240px;
+    background-image: url(./assets/Image\ 7.png);
+} 
+
+.photoIcon8{
+    width: 240px;
+    height: 240px;
+    background-image: url(./assets/Image\ 8.png);
+} 
+
+
+.iconDiv{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px  0 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.collectionName2{
+    width: 240px;
+    height: 76px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+}
+
+.categoryCardName{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.photoIcon2{
+    width: 240px;
+    height: 240px;
+    background-image: url(./assets/Image\ Placeholder\ \(2\).png);
+} 
+
+
+.discoverMore{
+    width: 100%;
+    /* height: Hug (780px) */
+    padding: 80px 115px 80px 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.eye{
+    width: 190px;
+    height: 60px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+
+}
+
+.NFTCardRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.NFTCard{
+    width: 330px;
+    height: 469px;
+    border-radius: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+
+.NFTCard>img{
+    width: 100%;
+    height: 296px;
+}
+.NFTArtsInfo{
+    /* width: Fill (330px)
+    height: Hug (173px) */
+    padding: 20px 30px 25px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.NFTArts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.NFTHeading{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.NFTArtsAvatar{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.NFTSpan{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.NFTAdditionalInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Price{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.PriseSpan{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(133, 133, 132, 1);
+}
+
+.currency{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.HighestBid{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.HighestBidSpan{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(133, 133, 132, 1);
+}
+
+.HighestBidcurrency{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+/* NFT Highlight */
+.NFTHighlight{
+    height: 640px;
+    background-image: url(./assets/NFT\ Highlight.png);
+    background-size: cover;
+}
+
+.NFTHighInfo{
+    position: relative;
+    padding-top: 360px;
+    display: flex;
+    justify-content: center;
+    height: 640px;
+    background: linear-gradient(to bottom, transparent, #A259FF 100%);
+}
+
+.frame240{
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    padding-left: 115px;
+    margin-right: 115px;
+    display: flex;
+    flex-direction: row; 
+    align-items: end;
+    /* padding-top: 360px; */
+    justify-content: space-between;
+}
+
+.NFTArtsName{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* margin:auto ;
+    margin-top: 360px; */
+   
+
+}
+
+.HighlightArtistCard{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.HighlightArtistCardSpan{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.MagicMashrooms{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.SeeNFT{
+    width: 198px;
+    height: 60px;
+    padding: 22px 48px 22px 48px;
+    border-radius: 20px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(43, 43, 43, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.AuctionTimer{
+    width: 295px;
+    height: 147px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(59, 59, 59, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.AuctionEndsIn{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.timer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.numbers{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.timetext{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.dots{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* How It Works */
+.HowItWorks{
+    width: 100%;
+    height: 738px;
+    padding: 80px 115px 80px 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.WorksCardRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.WorksCard{
+    width: 330px;
+    height: 439px;
+    padding: 10px 30px 30px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+
+}
+
+.workCardDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Setup{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Set{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* Subscribe */
+.Subscribe{
+    width: 100%;
+    height: 550px;
+    padding: 40px 115px 80px 115px;
+    /* gap: 10px */
+}
+
+.SubscribeWidget{
+    width: 100%;
+    height: 430px;
+    padding: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    background-color: rgba(59, 59, 59, 1);
+
+}
+
+.frame179{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 425px;
+}
+
+form{
+    width: 425px;
+    height: 60px;
+    padding: 16px 0 16px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+input{
+    width: 182px;
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.email::placeholder{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(43, 43, 43, 1);
+}
+
+.subscribebutton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 211px;
+    height: 60px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background-color: rgba(162, 89, 255, 1);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 334px;
+    padding: 40px 115px 40px 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(59, 59, 59, 1);
+
+}
+
+.footerInfo{
+    width: 100%;
+    height: 191px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.NFTMarketplaceInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footerAdditionalInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Nft{
+    width: 238px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+.community{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.CommHeader{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Explore{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.explre{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pagespan{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+.footerSubscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footerSubheading{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footerSubscInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerSubP{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+.frame239{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.devider{
+    width: 100%;
+    background-color: rgba(133, 133, 132, 1);
+}
+
+.abbr{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    .navMenu{
+        background-color: blue;
+    }
+
+
+}
